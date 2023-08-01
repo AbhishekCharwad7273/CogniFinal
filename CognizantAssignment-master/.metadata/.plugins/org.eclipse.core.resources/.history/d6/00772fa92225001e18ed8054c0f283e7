@@ -1,0 +1,22 @@
+package Multithreading;
+
+class TestDrive extends Thread
+{
+	public void run ()
+	{
+		System.out.println("Test Drive Started");
+		Thread.sleep(3000);
+		System.out.println("Test Drive Ended");
+	}
+}
+
+
+
+public class JoinExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

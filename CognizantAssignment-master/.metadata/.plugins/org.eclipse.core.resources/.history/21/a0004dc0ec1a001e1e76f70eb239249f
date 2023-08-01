@@ -1,0 +1,21 @@
+package JavaTrickyQuestion;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		
+		int no=153;
+		int armNo,rem,result=0;
+		armNo=no;
+		
+		while(armNo!=0)
+		{
+			
+		}
+		
+		
+		
+		
+	}
+}

@@ -1,0 +1,15 @@
+package JavaProgrammingQuestion;
+
+public class CountWords {
+
+	public static void main(String[] args) {
+		
+		String str="Abhishek Anil Charwad";
+		
+		str.stripIndent();
+		
+		System.out.println("Words are Given String is "+str.length());
+
+	}
+
+}

@@ -1,0 +1,26 @@
+package JavaTrickyQuestion;
+
+import java.util.stream.Collectors;
+
+//find vowelsOfString
+//find duplication of string
+
+public class OwelsOfString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String str="hello hello";
+		
+		long countOfVowels = str.chars().filter((i)->{
+			return(i=='a' || i=='e' ||i=='i'|| i=='o'||i=='u');
+				
+		}).count();
+		
+		System.out.println("Count Of Vowels are "+countOfVowels);
+	
+		str.chars().mapToObj(x->(char)x).collect(Collectors.groupingBy(Object::toString,Collectors.counting()));
+	}
+
+}

@@ -1,0 +1,25 @@
+package JavaTrickyQuestion;
+
+class Shape
+{
+	
+	public void draw()
+	{
+		System.out.println("it is circle method");
+	}
+	
+}
+
+class tringle extends Shape
+{
+	
+	
+}
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		
+	}
+}

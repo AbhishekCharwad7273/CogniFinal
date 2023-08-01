@@ -1,0 +1,13 @@
+package JavaTrickyQuestion;
+
+public class OccuranceJava {
+
+	public static void main(String[] args) {
+		
+		
+		String str="askjsndsfbsdfb";
+		
+
+	}
+
+}

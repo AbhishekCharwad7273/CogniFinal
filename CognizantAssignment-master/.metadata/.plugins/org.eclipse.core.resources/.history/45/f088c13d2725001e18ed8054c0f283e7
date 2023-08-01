@@ -1,0 +1,22 @@
+package Multithreading;
+
+class ThreadDemo implements Runnable
+{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+
+public class ThreadLifeCycle {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,38 @@
+package ArrayList;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		int no=13;
+		boolean prime=true;
+		
+		if(no<=1)
+		{
+			prime=false;
+		}
+		else
+		{
+			for(int i=2;i<=no/2;i++)
+			{
+				if(no%i==0)
+				{
+					prime=false;
+					break;
+				}
+			}
+		}
+		if(prime)
+		{
+			System.out.println("no is prime");
+		}
+		else
+		{
+			System.out.println("no is not prime");
+		}
+	}
+	
+
+}

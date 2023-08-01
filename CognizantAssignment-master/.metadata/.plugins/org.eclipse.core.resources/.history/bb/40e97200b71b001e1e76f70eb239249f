@@ -1,0 +1,31 @@
+package JavaTrickyQuestion;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		int no=12;
+		int prime = 0;
+		
+		for(int i=2;i<no;i++)
+		{
+			prime=0;
+			if(no%2==0)
+			{
+				prime=1;
+				break;
+			}
+		}
+		if(prime==0)
+		{
+			System.out.println("no is prime Number");
+		}
+		else
+		{
+			System.out.println("no is not prime number");
+		}
+			
+		}
+	
+	}
+

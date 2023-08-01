@@ -1,0 +1,15 @@
+package JavaTrickyQuestion;
+
+
+
+public class Demo {
+
+	public static void main(String[] args) {
+		
+		int arr[]={222,444,112,3444,644,98};
+		int min=arr[0];
+		
+		
+		
+	}
+}

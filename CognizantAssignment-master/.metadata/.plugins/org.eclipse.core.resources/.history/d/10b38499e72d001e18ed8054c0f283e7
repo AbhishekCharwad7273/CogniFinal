@@ -1,0 +1,10 @@
+package Employee;
+
+public class EmpClg {
+
+	
+	int id;
+	String name;
+	String city;
+	double salary;
+}

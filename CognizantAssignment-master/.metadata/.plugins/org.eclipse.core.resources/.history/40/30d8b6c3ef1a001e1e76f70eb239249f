@@ -1,0 +1,20 @@
+package JavaTrickyQuestion;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		
+		int no=12345678;
+		int rev = 0;
+		
+		for(int i=no;i>=0;i--)
+		{
+			rev=rev+i;
+		}
+            
+		
+		
+		
+	}
+}

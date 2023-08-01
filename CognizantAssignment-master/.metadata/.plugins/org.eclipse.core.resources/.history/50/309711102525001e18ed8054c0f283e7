@@ -1,0 +1,15 @@
+package Multithreading;
+
+public class ThreadPriority extends Thread {
+	
+	public void run()
+	{
+		System.out.println("Thread Priority");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,32 @@
+package JavaTrickyQuestion;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		
+		int no=153;
+		int armNo,rem,result=0;
+		armNo=no;
+		
+		while(armNo!=0)
+		{
+			rem=armNo%10;
+			result=(int) (result+Math.pow(rem, 3));
+			armNo=armNo/2;
+		}
+		
+		if(result==no)
+		{
+			System.out.println("No is Armstrong Number"+no);
+		}
+		else
+		{
+			System.out.println("No is Not Armstrong Number"+no);
+			
+		}
+		
+		
+		
+	}
+}

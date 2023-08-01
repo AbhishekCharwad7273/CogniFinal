@@ -1,0 +1,34 @@
+package JavaTrickyQuestion;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		String str = "abbssdbfjeejksjk";
+		Map<Character, Long> stringCount = str.chars().mapToObj(c -> (char) c)
+				.collect(Collectors.groupingBy(c -> c, Collectors.counting()));
+		// System.out.println(stringCount);
+		
+		System.out.println(str.substring(0, 5));
+		System.out.println(str.substring(5+1));
+
+		String countWords = "I am live in america";
+		String[] strArray = countWords.split(" ");
+		// System.out.println("length of Words "+strArray.length);
+
+		String arr[] = countWords.split(" ");
+		String revWords = "";
+
+		for (int i = arr.length - 1; i >= 0; i--) {
+			revWords = revWords + arr[i] + " ";
+		}
+		System.out.println(revWords);
+
+	}
+}

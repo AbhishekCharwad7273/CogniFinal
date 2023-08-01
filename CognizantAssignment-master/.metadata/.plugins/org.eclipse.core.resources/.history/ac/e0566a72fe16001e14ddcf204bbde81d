@@ -1,0 +1,23 @@
+package JavaTrickyQuestion;
+
+class SingletonEx
+{
+	public static SingletonEx instance;
+	
+	private SingletonEx() {}
+	
+	
+}
+
+
+
+public class Singleton {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+
+	}
+
+}

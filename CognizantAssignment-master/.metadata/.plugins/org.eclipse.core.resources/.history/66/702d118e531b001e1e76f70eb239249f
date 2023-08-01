@@ -1,0 +1,13 @@
+package JavaTrickyQuestion;
+
+import java.util.Arrays;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		
+		List<Integer>l=Arrays.asList(12,45,23,4,566,55);
+		
+	}
+}

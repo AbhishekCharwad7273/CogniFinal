@@ -1,0 +1,20 @@
+package JavaTrickyQuestion;
+
+
+	
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		String str="this is java";
+		String revStr="";
+		
+		for(int i=str.length();i>=0;i--)
+		{
+			revStr=revStr+str.charAt(i);
+		}
+		syso
+	
+	}
+}

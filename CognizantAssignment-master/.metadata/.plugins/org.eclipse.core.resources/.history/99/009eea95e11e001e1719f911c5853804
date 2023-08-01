@@ -1,0 +1,21 @@
+import java.util.Calendar;
+
+public class PrintWednesdayInMonth {
+
+	
+	public static void printWed(int year ,int month)
+	{
+		Calendar calendar=Calendar.getInstance();
+		calendar.set(year, month-1);
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+	
+	}
+
+}

@@ -1,0 +1,13 @@
+package JavaTrickyQuestion;
+
+public class DuplicateElement {
+
+	public static void main(String[] args) {
+		
+		String str="asdfghjkasdfg";
+		
+		str
+
+	}
+
+}

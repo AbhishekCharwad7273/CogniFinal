@@ -1,0 +1,17 @@
+package Employee;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmpClgTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<EmpClg> employeeList = new ArrayList<EmpClg>();
+		
+		employeeList.add(new EmpClg(1,"abhi","pune", 25000.0));
+
+	}
+
+}

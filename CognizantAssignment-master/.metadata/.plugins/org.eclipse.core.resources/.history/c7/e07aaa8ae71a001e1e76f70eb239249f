@@ -1,0 +1,30 @@
+package JavaTrickyQuestion;
+
+public class Demo {
+
+	public static void main(String[] args) {
+	
+		
+		int no=1234;
+		int rem,temp,sum=0;
+		temp=no;
+		
+		while(no>0)
+		{
+			rem=no%10;
+			sum=(sum*10)+rem;
+			no=no/10;
+			
+		}
+		
+		if(temp==sum)
+		{
+			System.out.println("no is Palindrome");
+		}
+		else
+		{
+			System.out.println("No is Not Palindrome");
+		}
+	}
+
+}

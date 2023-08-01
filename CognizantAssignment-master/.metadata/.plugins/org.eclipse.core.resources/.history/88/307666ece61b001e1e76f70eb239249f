@@ -1,0 +1,15 @@
+package JavaTrickyQuestion;
+
+
+	
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+	String str1=new String("100");
+	int i=Integer.parseInt(str1);
+	System.out.println(i);
+	
+	}
+}

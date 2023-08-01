@@ -1,0 +1,18 @@
+package JavaTrickyQuestion;
+
+public final class ImmutableClass {
+
+	private int id;
+	private String name;
+	
+	private ImmutableClass() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

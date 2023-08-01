@@ -1,0 +1,13 @@
+package JavaTrickyQuestion;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		
+		int arr1[]= {1,2,34,5,79};
+		int arr2[]=new int[arr1.length];
+		
+		
+	}
+}

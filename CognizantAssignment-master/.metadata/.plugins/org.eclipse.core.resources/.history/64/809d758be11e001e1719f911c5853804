@@ -1,0 +1,19 @@
+
+public class PrintWednesdayInMonth {
+
+	
+	public static void printWed(int year ,int month)
+	{
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		
+	
+	}
+
+}

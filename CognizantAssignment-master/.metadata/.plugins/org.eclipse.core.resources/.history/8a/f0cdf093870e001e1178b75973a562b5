@@ -1,0 +1,16 @@
+import java.util.Arrays;
+import java.util.List;
+
+public class CountryUpperCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		//List<String>country=Arrays.asList("usa","japan","france","italy","india","canada");
+		
+		
+		
+	}
+
+}

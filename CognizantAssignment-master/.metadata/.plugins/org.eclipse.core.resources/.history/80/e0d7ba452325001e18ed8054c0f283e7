@@ -1,0 +1,50 @@
+package Multithreading;
+
+class TestDrive extends Thread
+{
+	public void run ()
+	{
+		System.out.println("Test Drive Started");
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("Test Drive Ended");
+	}
+}
+
+class Medical extends Thread
+{
+	public void run()
+	{
+		System.out.println("Medical Started");
+		try {
+			Thread.sleep(5000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("Medical End");
+	}
+}
+
+class Officer extends Thread
+{
+	public void run()
+	{
+		System.out.println("Officer Check Documents");
+		Thread.sleep(2000);
+		System.out.println("Officer Clear The Documents");
+	}
+}
+
+public class JoinExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

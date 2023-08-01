@@ -1,0 +1,20 @@
+package JavaTrickyQuestion;
+
+class Shape
+{
+	
+	public void draw()
+	{
+		System.out.println("it is circle method");
+	}
+	
+}
+
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		
+	}
+}

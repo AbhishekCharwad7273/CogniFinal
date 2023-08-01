@@ -1,0 +1,20 @@
+import java.time.DayOfWeek;
+import java.time.LocalDate;
+import java.time.Month;
+
+public class PrintWednesdayInMonth {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int year=2023;
+		
+		LocalDate now=LocalDate.of(year, Month.JULY, 1);
+		
+		LocalDate wed=now.with(DayOfWeek.WEDNESDAY);
+
+		
+
+	}
+
+}

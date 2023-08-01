@@ -1,0 +1,28 @@
+package JavaProgrammingQuestion;
+
+public class CheckUniqueCharcterString {
+
+	public static boolean checkunique(String in)
+	{
+		boolean result=false;
+		
+		for(char ch:in.toCharArray())
+		{
+			if(in.indexOf(ch)==in.lastIndexOf(ch))
+			{
+				result=true;
+			}
+			
+			
+		}
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

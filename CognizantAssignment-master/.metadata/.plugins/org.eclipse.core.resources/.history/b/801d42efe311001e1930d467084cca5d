@@ -1,0 +1,27 @@
+package ArrayList;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class SortArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		ArrayList<String>clr=new ArrayList<>();
+		clr.add("white");
+		clr.add("green");
+		clr.add("blue");
+		clr.add("black");
+		clr.add("pink");
+		
+		System.out.println("before Sort"+clr);
+		
+		Collections.sort(clr);
+		System.out.println(Collections.reverseOrder());
+		
+		System.out.println("after sort"+clr);
+	}
+
+}

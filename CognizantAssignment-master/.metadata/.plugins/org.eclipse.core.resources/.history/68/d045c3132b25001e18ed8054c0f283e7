@@ -1,0 +1,43 @@
+package Multithreading;
+
+class ThreadDemoLife implements Runnable
+{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+		try {
+			Thread.sleep(1500);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println("state of Thread1 while it called join() on Thread2 -");
+		
+		try {
+			Thread.sleep(200);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+}
+
+
+public class ThreadLifeCycle implements Runnable{
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

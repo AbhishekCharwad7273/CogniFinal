@@ -1,0 +1,16 @@
+package JavaTrickyQuestion;
+
+public class PrimeNumber {
+
+	public static void main(String[] args) {
+	
+		int isPrime,n;
+		for(int i=0;i<=100;i++)
+		{
+			
+		}
+		
+		
+	}
+
+}

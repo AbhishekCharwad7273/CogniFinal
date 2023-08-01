@@ -1,0 +1,54 @@
+package JavaTrickyQuestion;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+
+interface i1
+{
+	default void print()
+	{
+		System.out.println("print method of i1 interface");
+	}
+}
+
+interface i2
+{
+	default void print()
+	{
+		System.out.println("This is Default Method of i2 interface");
+	}
+}
+
+
+
+
+
+
+public class Demo implements i1,i2 {
+
+	public static void main(String[] args) {
+		
+	String str="abbssdbfjeejksjk";
+		Map<Character, Long> stringCount = str.chars().mapToObj(c->(char)c).collect(Collectors.groupingBy(c->c,Collectors.counting()));
+		//System.out.println(stringCount);
+		
+		
+		String countWords="I am live in america";
+		String [] strArray=countWords.split(" ");
+		//System.out.println("length of Words "+strArray.length);
+		
+		String arr[]=countWords.split(" ");
+		String revWords="";
+		
+		for(int i=arr.length-1;i>=0;i--)
+		{
+			revWords=revWords+arr[i]+" ";
+		}
+		System.out.println(revWords);
+	
+		
+	}
+}

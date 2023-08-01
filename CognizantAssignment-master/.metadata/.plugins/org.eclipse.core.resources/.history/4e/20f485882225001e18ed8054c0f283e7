@@ -1,0 +1,17 @@
+package Multithreading;
+
+class TestDrive extends Thread
+{
+	
+}
+
+
+
+public class JoinExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

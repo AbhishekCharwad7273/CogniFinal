@@ -1,0 +1,20 @@
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class CountryUpperCase {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		List<String> country = Arrays.asList("usa", "japan", "france", "italy", "india", "canada");
+
+		String upperCaseString = country.stream().map(i -> i.toUpperCase()).collect(Collectors.joining(","));
+		System.out.println(upperCaseString);
+
+		List<String> listOfCountryUpperCase = country.stream().map(j -> j.toUpperCase()).collect(Collectors.toList());
+		System.out.println(listOfCountryUpperCase);
+	}
+
+}

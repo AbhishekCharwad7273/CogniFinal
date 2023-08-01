@@ -1,0 +1,22 @@
+package JavaTrickyQuestion;
+
+
+//find vowelsOfString
+//find duplication of string
+
+public class OwelsOfString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		String str="hello hello";
+		
+		str.chars().filter((i)->{
+			return(i=='a' || i=='e' ||i=='i'|| i=='o'||i=='u');
+				
+		})
+		
+	}
+
+}

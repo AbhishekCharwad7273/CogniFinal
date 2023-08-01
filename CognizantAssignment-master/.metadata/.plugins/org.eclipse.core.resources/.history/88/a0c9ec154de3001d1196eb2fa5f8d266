@@ -1,0 +1,14 @@
+package JavaTrickyQuestion;
+
+import java.util.stream.*;
+public class DuplicateElement {
+
+	public static void main(String[] args) {
+		
+		String str="asdfghjkasdfg";
+		
+		str.stream
+
+	}
+
+}

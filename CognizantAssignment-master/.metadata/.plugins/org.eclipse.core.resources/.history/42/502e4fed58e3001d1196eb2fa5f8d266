@@ -1,0 +1,13 @@
+package JavaTrickyQuestion;
+
+public class SecondHighestNoArray {
+
+	public static void main(String[] args) {
+		
+		
+		int []number= {1,43,12,4,2,43};
+		
+
+	}
+
+}

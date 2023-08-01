@@ -1,0 +1,18 @@
+package JavaProgrammingQuestion;
+
+public class CheckUniqueCharcterString {
+
+	public static boolean checkunique(String in)
+	{
+		boolean result=false;
+	}
+	
+	
+	
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

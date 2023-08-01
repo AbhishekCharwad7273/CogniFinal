@@ -1,0 +1,13 @@
+package JavaTrickyQuestion;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		int no=123;
+		int prime;
+		
+		for(int i=2;i<no;i++)
+	
+	}
+}

@@ -1,0 +1,37 @@
+package ArrayList;
+
+public class PrimeNumberOneToHundred {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		
+		int count=0;
+		int number=2;
+		
+		while(count<100)
+		{
+			boolean isPrime=true;
+			
+			for(int i=2;i*i<=number;i++)
+			{
+				if(number%i==0)
+				{
+					isPrime=false;
+					break;
+				}
+			}
+			if(isPrime)
+			{
+				System.out.println(number+"");
+				count++;
+				
+			}
+			number++;
+		}
+		
+	}
+		
+		
+		
+}

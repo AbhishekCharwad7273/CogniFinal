@@ -1,0 +1,26 @@
+package JavaTrickyQuestion;
+
+public class Demo {
+
+	public static void main(String[] args) {
+	
+		
+		String str="abaa";
+		String chkPalindrome="";
+		
+		for(int i=0;i<str.length();i++)
+		{
+			chkPalindrome=chkPalindrome+str.charAt(i);
+		}
+		
+		if(str.toLowerCase().equals(chkPalindrome.toLowerCase()))
+		{
+			System.out.println("String are palindrome");
+		}
+		else
+		{
+			System.out.println("String are Not Palindrome");
+		}
+	}
+
+}

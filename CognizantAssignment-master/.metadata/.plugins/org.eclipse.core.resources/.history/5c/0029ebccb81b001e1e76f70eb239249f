@@ -1,0 +1,22 @@
+package JavaTrickyQuestion;
+
+public class Demo {
+
+	public static void main(String[] args) {
+
+		int no = 12345;
+		int sum;
+		int rev=0;
+		int rem;
+
+		while (no != 0)
+
+		{
+			rem=no%10;
+			
+			
+
+		}
+
+	}
+}

@@ -1,0 +1,19 @@
+package Multithreading;
+
+public class MultiThreadDemo extends Thread{
+	
+	public void run()
+	{
+		System.out.println("Multithreaded Enviournment");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		MultiThreadDemo mt=new MultiThreadDemo();
+		mt.start();
+		
+
+	}
+
+}

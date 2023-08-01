@@ -1,0 +1,15 @@
+package JavaProgrammingQuestion;
+
+public class DistinctElementInArray {
+
+	public static void main(String[] args) {
+		
+		int arr1[]= {1,4,7,9,2};
+		int arr2[]= {1,7,3,4,5};
+		int res[]= {};
+		
+		if(int i=)
+
+	}
+
+}

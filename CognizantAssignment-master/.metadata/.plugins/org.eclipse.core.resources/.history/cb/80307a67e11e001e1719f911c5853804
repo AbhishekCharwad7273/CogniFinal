@@ -1,0 +1,21 @@
+
+public class PrintWednesdayInMonth {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int month=31;
+		int wed=1;
+		
+		for(int i=1;i<=month;i++)
+		{
+			if(wed==month)
+			{
+				wed=wed+i;
+			}
+			
+		}
+		System.out.println(wed);
+	}
+
+}
