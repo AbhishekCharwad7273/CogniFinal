@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <link rel="shortcut icon" href="#">
+    <title>HTML Audio</title>
+
+
+</head>
+
+<body>
+
+    <audio id="player" controls>
+        <source src="/Audio/iPhone.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="player1" controls>
+        <source src="/Audio/Nokia.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <audio id="player2" controls>
+        <source src="/Audio/Airtel.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <button id="play">playiphone</button>
+    <button id="play1">playNokia</button>
+    <button id="play2">playAirtel</button>
+
+    <script>
+
+        let player = document.getElementById("player");
+        document.getElementById("play").addEventListener("click", () => {
+            player.play();
+            
+        });
+
+        let player1 = document.getElementById("player1");
+        document.getElementById("play1").addEventListener("click", () => {
+            player1.play();
+        });
+
+        let player2 = document.getElementById("player2");
+        document.getElementById("play2").addEventListener("click", () => {
+            player2.play();
+        });
+/*
+        setTimeout(function () {
+            document.getElementById("player1").play();
+            console.log('your audio is started just now');
+        }, 10000)
+*/
+    </script>
+
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./changeMusic.js"></script>
+</head>
+
+<body>
+    <p onclick="playAudio('first')" style="cursor: pointer;">1st songs</p>
+    <audio controls id="myAudio1" onended="endAudio('first')">
+        <source src="./Audio/Airtel.mp3" type="audio/mp3">
+    </audio>
+    <p onclick="playAudio('second')" style="cursor: pointer;">2nd songs</p>
+    <audio controls id="myAudio2" onended="endAudio('second')">
+        <source src="./Audio/iPhone.mp3" type="audio/mp3">
+    </audio>
+    <p onclick="playAudio('third')" style="cursor: pointer;">3rd songs</p>
+    <audio controls id="myAudio3" onended="endAudio('third')">
+        <source src="./Audio/Nokia.mp3" type="audio/mp3">
+    </audio>
+</body>
+
+</html>
